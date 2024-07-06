@@ -1,0 +1,28 @@
+{
+    "name": "typescript-makes-life-easier",
+    "version": "1.0.0",
+    "description": "utility functions for everyone and solving problems",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "task": "nodemon index.ts",
+        "lint": "eslint src/**/*.ts",
+        "lint:fix": "eslint src/**/*.ts --fix",
+        "format:fix": "prettier --write \"{src,scripts,__tests__,.}/**/*.{ts,tsx}\" \"**/*.ts\" \"**/*.json\" \"README.md\" "
+    },
+    "author": "Marieswaran",
+    "license": "ISC",
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "nodemon": "^3.1.4",
+        "path": "^0.12.7",
+        "prettier": "^3.2.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.56.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-simple-import-sort": "^10.0.0"
+    }
+}

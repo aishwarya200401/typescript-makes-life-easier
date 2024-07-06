@@ -1,1 +1,1 @@
-## Typescript Based utitlity functions
+## Typescript Based utility functions
